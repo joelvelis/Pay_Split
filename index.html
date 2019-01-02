@@ -4,7 +4,7 @@
 
 </head>
   <body>
-    <table>
+    <table id="myTable">
     	<thead>
     		<tr>
     			<th>Name</th>
@@ -21,10 +21,11 @@
              <label for="item1">Item1</label>
              <input type="text" id="item1">
            </td>
-           <td> 
+           <td class="items">  
              <label for="amount1">Amount1</label>
              <input type="text" id="amount1">
              <button type="button" onclick="myClick()">Lets Calculate</button>
+             <button type = "button" onclick="addItem()">Add Item</button>
            </td>
          </tr>
       </tbody>
